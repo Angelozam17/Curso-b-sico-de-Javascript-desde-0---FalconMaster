@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #DAF7A6;
+	color: #581845;
+	font-size: 16px;
+}
+	.wrap{
+		width: 90%;
+		max-width: 1000px;
+		margin: auto;
+	}
+		.widget{
+			width: 40%;
+			margin: 2em;
+		}
+			.fecha{
+				font-family: 'Raleway', sans-serif;
+				text-align: center;
+				font-size: 1.5em;
+				margin-bottom: 5px;
+				background: rgba(255,195,0,.5);
+				padding: 20px;
+				width: 100%;
+			}
+				p{
+					display: inline-block;
+					line-height: 1em;
+				}
+
+
+			.reloj{
+				font-family: 'Raleway', sans-serif;
+				width: 100%;
+				padding: 20px;
+				font-size: 4em;
+				text-align: center;
+				background: rgba(255, 87, 51,.5);
+			}
+				.caja-segundos{
+					display: inline-block;
+				}
+
+				.segundos, .ampm{
+					font-size: .4em;
+					display: block;
+				}

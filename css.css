@@ -1,0 +1,57 @@
+div{
+	display: inline-block;
+	min-width: 200px;
+}
+
+
+}
+
+
+.blue{
+	background: #0074D9;
+	border: 1px solid #000;
+}
+
+.red{
+	background: #FF4136;
+	border: 1px solid #000;
+}
+
+a{
+	display: block;
+	text-decoration: none
+}
+
+h1{
+	text-align: center;
+}
+
+ol{
+	list-style: none;
+}
+
+
+/*Modificando el estilo de los elementos*/
+
+.thumb{
+	padding: 0.5em;
+	transition: 300ms all ease;
+}
+
+.grande{
+	width: 400px;
+	border: 1px solid navy;
+
+}
+
+.titulo{
+	border: 1px solid navy;
+	background: #ccc;
+	padding: 10px;
+}
+
+.tituloGrande{
+	font-size:60px;
+}
+
+
